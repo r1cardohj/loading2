@@ -5,13 +5,14 @@ from threading import Event, Thread
 def loading(
     msg: str | None = "Loading...", ok: str | None = "OK", err: str | None = "Failed:"
 ):
-    """ add loading anime easily
+    """add loading anime easily
     e.g.
 
         >>> @loading()
         >>> def long_time_task():
         >>>     time.sleep(2)
     """
+
     def decorator(func):
         def decorated(*args, **kwargs):
             done = Event()
@@ -48,4 +49,3 @@ def spin(msg: str, done: Event) -> None:
 
     blanks = " " * len(status)
     print(f"\r{blanks}\r", end="")
-
