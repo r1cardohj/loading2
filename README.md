@@ -2,6 +2,8 @@
 
 A simple and elegant Python library for adding loading animations to your functions with a decorator.
 
+[Screencast from 2025-08-24 22-59-29.webm](https://github.com/user-attachments/assets/f714d1df-2ff2-4bfc-9cde-269b59f6962a)
+
 ## Features
 
 - ✨ Easy-to-use decorator pattern
