@@ -1,9 +1,9 @@
 [project]
 name = "loading2"
-version = "0.0.1"
+version = "0.0.2"
 description = "A simple and elegant Python library for adding loading animations to your functions with a decorator"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = []
 authors = [
     { name = "r1cardohj", email = "houjun447@gmail.com" }

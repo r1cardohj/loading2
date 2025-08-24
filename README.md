@@ -13,9 +13,10 @@ A simple and elegant Python library for adding loading animations to your functi
 ## Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/r1cardohj/loading2.git
-cd loading2
+# use pip
+pip install loading2
+# use uv
+uv add loading2
 
 # Or download the loading2.py file directly
 ```
